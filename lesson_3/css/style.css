@@ -1,0 +1,38 @@
+@import url(reset.css);
+/*  */
+
+
+a {
+	color: red;
+}
+
+#info {
+	color: darkslategrey;
+}
+.main-container {
+	color: grey;
+}
+
+.main-container > p {
+	color: aqua;
+}
+
+.main-container2 {
+	color: blueviolet;
+}
+
+.main-container3 {
+	color: teal;
+}
+
+.main-title {
+	color: orange;
+}
+
+.text {
+	color: yellowgreen;
+}
+
+.mark-text {
+	color: blue;
+}
