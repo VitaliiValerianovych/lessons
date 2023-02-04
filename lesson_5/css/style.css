@@ -5,7 +5,7 @@
 
 .main {
 	font-family: "Poppins", sans-serif;
-	width: 1440px;
+	margin: 0 auto;
 }
 
 .main-title {
@@ -22,10 +22,10 @@
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 1.6;
-	width: 400px;
-	height: 80px;
+	max-width: 400px;
+	
 	color: #212529;
-	margin: 40px auto 40px 312px;
+	margin: 40px auto;
 }
 
 .main-text {
@@ -33,10 +33,10 @@
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.79;
-	width: 816px;
-	height: 450px;
+	max-width: 816px;
+	
 	color: #6C757D;
-	margin: 40px auto 80px 312px;
+	margin: 40px auto;
 	
 }
 
@@ -45,16 +45,16 @@
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 1.6;
-	width: 605px;
-	height: 120px;
+	max-width: 605px;
+	
 	color: #212529;
-	margin: 80px auto 40px 312px;
+	margin: 80px auto;
 	
 }
 
 .parag-2 {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	margin: 25px auto;
+
 }
 
 .main-text2 {
@@ -62,15 +62,16 @@
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.79;
-	width: 816px;
-	height: 325px;
+	max-width: 816px;
+
 	color: #6C757D;
-	margin: 40px auto 80px 312px;
+	margin-top: 40px;
+margin-bottom: 80px;
 
 }
 
 .parag-5 {
-	padding-top: 25px;
+	margin-top: 25px;
 }
 
 .main-text3 {
@@ -79,25 +80,30 @@
 	font-size: 14px;
 	line-height: 1.79;
 	color: #6C757D;
-	width: 816px;
-	height: 175px;
+	max-width: 816px;
+	
 	margin-top: 80px;
-	margin-left: 312px;
+	
 	margin-bottom: 100px;
 }
 
+.img {
+max-width: 1240px;
+margin: 0 auto;
+}
+
 .img-first {
-	margin: auto 100px auto 100px;
+	margin: 0 auto;
 	border-radius: 5px;
 }
 
 .img-2 {
-	margin: auto 15px auto 100px;
+
 	border-radius: 5px;
 }
 
 .img-3 {
-	margin-left:  15px;
+
 	border-radius: 5px;
 }
 
