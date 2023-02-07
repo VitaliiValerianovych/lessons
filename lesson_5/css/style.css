@@ -1,0 +1,115 @@
+
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+.main {
+	font-family: "Poppins", sans-serif;
+	max-width: 1240px;
+	margin: 0px auto;
+}
+
+.main-title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.6;
+	color: darkblue;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0px auto 40px auto;
+}
+
+.title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	max-width: 400px;
+	color: #212529;
+	margin: 0px auto 40px auto;
+}
+
+.main-text {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.79;
+	max-width: 816px;
+	color: #6C757D;
+	margin: 0px auto 80px auto;
+	
+}
+
+.parag-2 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.img-first {
+	font-size: 0;
+	border-radius: 5px;
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+
+.title2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	max-width: 605px;
+	color: #212529;
+	margin: 0px auto 40px auto;
+	
+}
+
+.main-text2 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.79;
+	max-width: 816px;
+	color: #6C757D;
+	margin: 0px auto 80px auto;
+
+}
+
+.parag-5 {
+	margin-bottom: 25px;
+}
+
+.main-text3 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.79;
+	color: #6C757D;
+	max-width: 816px;
+	margin: 0px auto 80px auto;
+}
+
+.img-2 {
+	margin-right: 30px;
+	border-radius: 5px;
+	max-width: 100%;
+}
+
+.img-3 {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+.double-img {
+	display: block;
+	font-size: 0;
+	margin: 0px auto 80px auto;
+}
+
+.end {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	color: blue;
+	text-align: center;
+	padding-bottom: 25px;
+}
