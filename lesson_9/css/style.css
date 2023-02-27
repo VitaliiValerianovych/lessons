@@ -1,0 +1,100 @@
+@import url(../css/reset.css);
+/* *********************** */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+
+/* *********************** */
+.main-container {
+	background: linear-gradient(90deg, rgba(32, 39, 106, 0.85) 0%, rgba(32, 39, 106, 1) 15%, rgba(32, 39, 106, 1) 85%, rgba(32, 39, 106, 0.85) 100%);
+}
+
+.contant {
+	max-width: 1310px;
+	padding: 15px;
+	margin: 0 auto;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.8;
+	color: #E5E5E5;
+}
+
+.title {
+	font-family: "Philosopher", sans-serif;
+	font-weight: 700;
+	font-size: 32px;	
+	line-height: 1.8;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.title-1 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1.8;
+	margin-bottom: 20px;
+}
+
+.icons-contant,
+.elements-design {
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.contant > * img {
+	margin-bottom: 20px;
+	margin-right: 20px;
+	vertical-align: bottom;
+}
+
+.contant > * img:last-child {
+	margin-right: 0;
+}
+
+.icons-social > *{
+	display: inline-block;
+	border: 2px solid #E5E5E5;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.icons-contant {
+	box-shadow: 0px 0px 21px 12px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	padding: 10px 20px;
+}
+
+.elements-design {
+	box-shadow: inset 0px 0px 21px 12px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	padding: 10px 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+span {
+	text-decoration: underline;
+}
+
+.content-photo {
+	box-shadow: 0px 0px 21px 12px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	padding: 10px 20px;
+}
+
+.img-content>*:first-child {
+	margin-right: 0;
+	border-radius: 0px;
+}
+
+.img-content > * {
+	border-radius: 15px;
+}
