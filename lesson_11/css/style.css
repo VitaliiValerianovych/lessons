@@ -183,6 +183,16 @@ body {
 	transition: all 0.4s;
 }
 
+.sub-menu.box::after {
+	content: "";
+	top: 0;
+	left: -10%;
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	opacity: 0;
+}
+
 .menu__item-cat:hover .sub-menu.box{
 	opacity: 1;
 	visibility: visible;
