@@ -391,7 +391,7 @@ body {
 	margin-bottom: 40px;
 }
 
-.hw__author {
+.block__author {
 	background: linear-gradient(to top, #EAFA07 10%, #00979C 55%, #006FFF 90%);
 	font-size: 40px;
 	color: #fff;
@@ -405,20 +405,20 @@ body {
 	z-index: 9;
 }
 
-.block-1__title {
+.block__title.block-1 {
 	position: sticky;
 	top: 100px;
 
 }
 
-.block-2__title {
+.block__title.block-2 {
 	position: sticky;
 	top: 100px;
 	text-decoration: underline;
 	color: #EAFA07;
 }
 
-.block-3__title {
+.block__title.block-3 {
 	position: sticky;
 	top: 100px;
 	text-transform: capitalize;
