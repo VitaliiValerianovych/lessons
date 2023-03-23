@@ -137,7 +137,7 @@ body {
 .contant__section.section {
 	max-width: 100%;
 	height: 700px;
-	background: url(img/road.webp) center / 90% no-repeat;
+	background: url(../img/road.webp) center / 90% no-repeat;
 	margin-bottom: 30px;
 }
 .section {
@@ -258,7 +258,7 @@ body {
 	height: 180px;
 	border-radius: 97% 3% 100% 0% / 50% 100% 0% 40%;
 	border: 7px solid #00293e;
-	background: url(img/dis.webp) right;
+	background: url(../img/dis.webp) right;
 	position: absolute;
 	z-index: 4;
 }
