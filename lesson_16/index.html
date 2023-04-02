@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HomeWork #16 by Hushkevych Vitalii</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header><div class="header-title">HomeWork #14 by Hushkevych Vitalii</div></header>
+		<main class="page">
+			<div class="page__billing billing">
+				<div class="billing__container">
+					<form  class="billing__form" action="#" method="post">
+						<h3 class="billing__title">Billing Details</h3>
+						<div class="billing__items">
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="First name*" name="username" type="text">
+							</div>
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="Last name*" name="userlastname" type="text">
+							</div>
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="Address*" name="address" type="text">
+							</div>
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="Address line 2" name="address2" type="text">
+							</div>
+							<div class="billing__item select-list">
+								<select class="billing__input select-opt" name="country" id="country">
+									<option selected disabled value="1">Counrty</option>
+									<option value="2">Ukraine</option>
+									<option value="3">USA</option>
+									<option value="4">Germany</option>
+									<option value="5">Italy</option>
+									<option value="6">France</option>
+									<option value="7">Spain</option>
+									<option value="8">Poland</option>
+									<option value="9">Japan</option>
+								</select>
+							</div>
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="City/Town*" name="city" type="text">
+							</div>
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="Postcode / ZIP*" name="postcode" type="text">
+							</div>
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="Phone*" name="phone" type="tel">
+							</div>
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="Postcode / ZIP*" name="postcode" type="text">
+							</div>
+							<div class="billing__item">
+								<input class="billing__input" required placeholder="Phone*" name="phone" type="tel">
+							</div>
+							<div class="billing__item billing__item-area">
+								<textarea  class="billing__input billing__area " autocomplete="off" placeholder="Additional information" name="additional"></textarea>
+							</div>
+						</div>
+						<div class="billing__checkbox checkbox-billing">
+							<div class="checkbox-billing__item">
+								<input id="create-account" class="checkbox-billing__input" value="yes" name="create-account" type="checkbox">
+								<label class="checkbox-billing__label" for="create-account">Create Account</label>
+							</div>
+							<div class="checkbox-billing__item">
+								<input id="ship-diff-addr" class="checkbox-billing__input" value="yes" name="ship-diff-addr" type="checkbox">
+								<label class="checkbox-billing__label" for="ship-diff-addr">Ship to a different address?</label>
+							</div>
+						</div>
+						<div class="billing__coupon coupon">
+							<h3 class="coupon__title">Apply Coupon to get discount!</h3>
+							<div class="coupon__item">
+								<input class="coupon__input" placeholder="Coupon code" name="сoupon-code" type="text">
+								<button class="coupon__button" type="submit">Apply Code</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="page__shipping shipping">
+				<div class="shipping__container">
+					<form  class="shipping__form" action="#" method="post">
+						<h3 class="shipping__title">Shipping Address</h3>
+						<div class="shipping__items">
+							<div class="shipping__item">
+								<label class="shipping__label" for="shipp-mail-addr">Email Address *</label>
+								<input id="shipp-mail-addr" class="shipping__input" required placeholder="hushkevych.vitalii@example.com" name="mail" type="email">
+							</div>
+							<div class="shipping__item">
+								<label class="shipping__label" for="shipp-pass">Password</label>
+								<input id="shipp-pass" class="shipping__input" required placeholder="************" maxlength="16" minlength="6" name="userpass" type="password">
+							</div>
+							<div class="shipping__item">
+								<label class="shipping__label" for="shipp-postcode">Zip/Postal Code</label>
+								<input class="shipping__input" id="shipp-postcode" required placeholder="" name="postcode" type="text">
+							</div>
+						</div>
+						<div class="shipping__sign">
+							<a class="shipping__sign-link" href="#">You already have an account with us. Sign in or continue as guest.</a>
+						</div>
+						<div class="shipping__login">
+							<button class="shipping__button-login" type="submit">login</button>
+							<a class="shipping__forgot-pass" href="#">forgot your password?</a>
+						</div>
+					</form>
+					<div class="shipping__line"></div>
+					<form  class="shipping__info" action="#" method="post">
+						<div class="shipping__item">
+							<label class="shipping__label" for="shipp-fst-name">First Name *</label>
+							<input class="shipping__input" id="shipp-fst-name" required placeholder="" name="fst-name" type="text">
+						</div>
+						<div class="shipping__item">
+							<label class="shipping__label" for="shipp-scn-name">Last Name *</label>
+							<input class="shipping__input" id="shipp-scn-name" required placeholder="" name="scn-name" type="text">
+						</div>
+						<div class="shipping__item">
+							<label class="shipping__label" for="shipp-company">Company</label>
+							<input class="shipping__input" id="shipp-company"  placeholder="" name="company" type="text">
+						</div>
+						<div class="shipping__item">
+							<label class="shipping__label" for="shipp-str-addr">Street Address *</label>
+							<input class="shipping__input" id="shipp-str-addr" required placeholder="" name="street-address" type="text">
+						</div>
+						<div class="shipping__item">
+							<label class="shipping__label-hidden" for="shipp-str-addr-02">Street Address *</label>
+							<input class="shipping__input" id="shipp-str-addr-02" required placeholder="" name="street-address-02" type="text">
+						</div>
+						<div class="shipping__item">
+							<label class="shipping__label-hidden" for="shipp-str-addr-03">Street Address *</label>
+							<input class="shipping__input" id="shipp-str-addr-03" required placeholder="" name="street-address-03" type="text">
+						</div>
+						<div class="shipping__item">
+							<label class="shipping__label-hidden" for="shipp-str-addr-04">Street Address *</label>
+							<input class="shipping__input" id="shipp-str-addr-04" required placeholder="" name="street-address-04" type="text">
+						</div>
+						<div class="shipping__item state-list">
+							<label class="shipping__label" for="select-state">State/Province *</label>
+							<select class="shipping__input select-state" name="state-list" id="select-state">
+								<option selected disabled value="1">Please select a region, state or province</option>
+								<option value="2">Nord</option>
+								<option value="3">South</option>
+								<option value="4">West</option>
+								<option value="5">East</option>
+							</select>
+						</div>
+						<div  class="shipping__methods">
+							<h3 class="shipping__title-method">Shipping Methods</h3>
+							<div class="shipping__line-method"></div>
+							<div class="shipping__radio radio">
+								<div class="radio__items">
+									<div class="radio__item">
+										<input id="radio-fixed" class="radio__input" value="yes" name="methods" type="radio">
+										
+										<label class="radio__label-money" for="radio-fixed">$5.00</label>
+										<label class="radio__label" for="radio-fixed">Fixed</label>
+										<label class="radio__label" for="radio-fixed">Flat Rate</label>
+										
+									</div>
+									<div class="radio__line"></div>
+									<div class="radio__item">
+										<input id="radio-table" class="radio__input" value="yes" name="methods" type="radio">
+										<label class="radio__label-money" for="radio-table">$10.00</label>
+										<label class="radio__label" for="radio-table">Table Rate</label>
+										<label class="radio__label" for="radio-table">Best Way</label>
+									</div>
+								</div>
+							</div>
+							<div class="shipping__button-block button-block">
+								<button class="button-block-next" type="submit">next</button>
+								<a class="button-block-back" href="#">back</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</div>
+</body>
+</html>

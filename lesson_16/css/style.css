@@ -1,0 +1,326 @@
+@import url("reset.css");
+@import url("common.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+body {}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper>main {
+	flex-grow: 1;
+}
+.header-title {
+	top: 0px;
+	width: 100%;
+	font-weight: 700;
+	line-height: 1.5;
+	font-size: 40px;
+	color: #ffffff;
+	text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+	text-align: center;
+	background: linear-gradient(180deg, rgba(7, 183, 245, 1) 0%, rgba(157, 190, 123, 1) 50%, rgba(245, 226, 6, 1) 100%);
+	transition: 0.4s;
+}
+[class*="__container"] {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 730px;
+	background-color: #F5F5F5;
+}
+/* *************************** */
+.page {
+	padding: 60px 0;
+}
+.page__billing {
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #212B36;
+	margin-bottom: 50px;
+}
+.billing {}
+.billing__form {}
+.billing__title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.25;
+	color: #212B36;
+	margin-bottom: 30px;
+}
+.billing__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 35px;
+	row-gap: 30px;
+}
+.billing__item,
+.billing__item.select-list {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 1 48%;
+}
+.billing__input {
+	flex: 0 1 100%;
+	border: 1px solid #E7E7E7;
+	border-radius: 7px;
+	padding: 15px 25px;
+	
+	transition: border 0.4s;
+}
+.select-opt {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #637381;
+}
+.billing__item-area {
+	flex: 0 1 100%;
+}
+.billing__area {
+	height: 180px;
+	flex: 0 0 100%;
+	resize: vertical;
+}
+.billing__checkbox {
+	margin-bottom: 55px;
+}
+.checkbox-billing {
+}
+.checkbox-billing__item:not(:last-child) {
+	margin-bottom: 25px;
+	
+}
+.checkbox-billing__input {
+	transition: 0.4s;
+}
+.checkbox-billing__label {
+	padding-left: 15px;
+	transition: 0.3s;
+}
+.billing__coupon {}
+
+.coupon {
+	max-width: 68%;
+}
+.coupon__title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.3;
+	color: #212B36;
+	margin-bottom: 25px;
+}
+.coupon__item {}
+.coupon__input {
+	border: 1px solid #E7E7E7;
+	border-radius: 7px;
+	padding: 15px 25px;
+	transition: border 0.4s;
+	margin-right: 20px;
+}
+.coupon__button {
+	padding: 12px 22px;
+	background-color: #212B36;
+	color: #fff;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+/* **************************************** */
+.page__shipping {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	color: #3F3F3F;
+}
+.shipping {}
+.shipping__form {
+	margin-bottom: 36px;
+}
+.shipping__title {
+	font-family: "Oswald", sans-serif;
+	font-size: 24px;
+	line-height: 2.83;
+	color: #000000;
+}
+.shipping__items {
+margin-bottom: 20px;
+}
+.shipping__item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.shipping__item:not(:last-child) {
+	margin-bottom: 24px;
+}
+.shipping__label {}
+.shipping__input {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 1 75%;
+	padding: 15px 25px;
+	border: 1px solid #E7E7E7;
+}
+.shipping__sign {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #828282;
+	margin-bottom: 20px;
+}
+.shipping__sign-link {}
+.shipping__button-login {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: #000000;
+	padding: 15px 40px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	transition: 0.4s;
+	margin-right: 25px;
+}
+.shipping__forgot-pass {
+	font-size: 14px;
+	line-height: 1.43;
+	color: #0F6DB1;
+	text-transform: capitalize;
+	padding: 15px 0;
+}
+.shipping__line {
+	max-width: 100%;
+	height: 0;
+	border: 1px solid #C4C4C4;
+	margin-bottom: 39px;
+}
+.shipping__line-method {
+	max-width: 100%;
+	height: 0;
+	border: 1px solid #C4C4C4;
+}
+.radio__line {
+	max-width: 100%;
+	height: 0;
+	border: 1px solid #C4C4C4;
+}
+.shipping__info {
+	margin-bottom: 44px;
+}
+.shipping__item {}
+.shipping__label {}
+.shipping__input {}
+.state-list {}
+.select-state {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #3F3F3F;
+}
+.shipping__label-hidden {
+	visibility: hidden;
+}
+.shipping__methods {}
+.shipping__title-method {
+	font-family: "Oswald", sans-serif;
+	font-size: 24px;
+	line-height: 2.83;
+	color: #000000;
+	margin-bottom: 40px;
+}
+.shipping__radio {}
+.radio {
+	margin-bottom: 25px;
+}
+.radio__items {
+max-width: 76%;
+	
+}
+.radio__item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding: 15px 0;
+}
+.radio__input:not(:last-child) {
+	margin-right: 10px;
+}
+.radio__input {
+	transition: 0.4s;
+}
+.radio__label {
+	flex: 0 1 30%;
+}
+.radio__label-money {
+	flex: 0 1 35%;
+}
+.shipping__button-block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.button-block {}
+.button-block-next {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: #000000;
+	padding: 15px 40px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	transition: 0.4s;
+}
+.button-block-back {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #828282;
+	padding: 5px 5px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+/* ****HOVER**** */
+.coupon__input:focus,
+.billing__input:focus,
+.shipping__input:focus {
+	outline: 1px solid #0000ff;
+	transition: border 0.4s;
+}
+.radio__input:hover,
+.checkbox-billing__input:hover {
+	transition: 0.4s;
+	transform: scale(1.5);
+}
+.coupon__button:hover {
+	background-color: #405163;
+	transition: 0.4s;
+}
+.header-title:hover {
+	transform: scale(1.1);
+	transition: 0.4s;
+}
+.shipping__button-login:hover,
+.block__button-next:hover {
+	background-color: #a8a8a8;
+	color: #000000;
+	transition: 0.4s;
+}
+.block__button-back:hover {
+	color: #000000;
+}
+.radio__input:hover {
+	transition: 0.4s;
+}
